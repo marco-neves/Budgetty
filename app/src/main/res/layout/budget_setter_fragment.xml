@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bk3"
+    android:clickable="true">
+
+    <Button
+        android:id="@+id/confirm_button_budgetFrag"
+        style="@style/ButtonStyle"
+        android:text="@string/confirm"
+        android:layout_marginBottom="@dimen/dimen_24dp"
+        app:layout_constraintBottom_toTopOf="@id/cancel_button_budgetFrag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cancel_button_budgetFrag"
+        style="@style/ButtonStyle"
+        android:text="@string/cancel"
+        android:layout_marginBottom="@dimen/dimen_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/set_budget_edittext_budgetFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/cost"
+        android:textSize="@dimen/text_32sp"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/text_color"
+        android:textColor="@color/text_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_budget_text"
+        android:textSize="@dimen/text_36sp"
+        android:layout_marginTop="144dp"
+        android:textColor="@color/bttn_outline"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/set_budget_edittext_budgetFrag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

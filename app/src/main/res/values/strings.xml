@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Budgetty</string>
+    <string name="budget">budget</string>
+    <string name="new_expense">New Expense</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="location">Place</string>
+    <string name="cost">$$</string>
+    <string name="save">Save</string>
+    <string name="mm">MM</string>
+    <string name="dd">DD</string>
+    <string name="yyyy">YYYY</string>
+    <string name="backslash">/</string>
+    <string name="invalid_cost_text">Input a valid cost</string>
+    <string name="incorrect_input">Incorrect input</string>
+    <string name="parse_double_error">Could not parse double</string>
+    <string name="budgetty_text">BUDGETTY</string>
+    <string name="enter_budget_text">Enter your budget here:</string>
+</resources>

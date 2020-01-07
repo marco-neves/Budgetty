@@ -1,0 +1,34 @@
+<resources>
+    <style name="ButtonStyle">
+        <item name="android:textSize">@dimen/text_32sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:background">@color/bk1</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_24dp</item>
+        <item name="android:layout_marginStart">@dimen/dimen_24dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:strokeColor">@color/bttn_outline</item>
+    </style>
+    <style name="TextColor">
+        <item name="android:textColorHint">@color/text_color</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="DateStyle" parent="TextColor">
+        <item name="android:layout_marginTop">@dimen/dimen_24dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_24dp</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:inputType">number</item>
+        <item name="android:onClick">deleteText</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
